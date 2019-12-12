@@ -13,7 +13,7 @@ namespace FunkyMunch.Data.Entities
         public long Id { get; set; }
 
         [Required]
-        public DateTime CreatedAt { get; set; }
+        public DateTimeOffset CreatedAt { get; set; }
 
         [Required]
         [StringLength(128)]
