@@ -11,6 +11,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FunkyMunch.Services", "Funk
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FunkyMunch.Test.UnitTests", "FunkyMunch.Test.UnitTests\FunkyMunch.Test.UnitTests.csproj", "{970D0D01-751F-4273-873F-F4EF0998E305}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FunkyMunch.API", "FunkyMunch.API\FunkyMunch.API.csproj", "{7AAF592B-A9A5-4CF1-9A03-974743925B4F}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -33,6 +35,10 @@ Global
 		{970D0D01-751F-4273-873F-F4EF0998E305}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{970D0D01-751F-4273-873F-F4EF0998E305}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{970D0D01-751F-4273-873F-F4EF0998E305}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7AAF592B-A9A5-4CF1-9A03-974743925B4F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7AAF592B-A9A5-4CF1-9A03-974743925B4F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7AAF592B-A9A5-4CF1-9A03-974743925B4F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7AAF592B-A9A5-4CF1-9A03-974743925B4F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

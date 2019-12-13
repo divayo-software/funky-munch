@@ -6,5 +6,10 @@ namespace FunkyMunch.Business.Exceptions
 {
     public class DuplicateEmailAddressException : Exception
     {
+        public DuplicateEmailAddressException(string emailAddress)
+            : base($"The email address {emailAddress} is already registered.")
+        {
+
+        }
     }
 }
